@@ -1,5 +1,5 @@
 syntax = "proto3";
-
+option optimize_for = LITE_RUNTIME;
 message Compra {
   int32 id_transaccion = 1;       // Identificador único de la venta o garantía
   int32 id_cliente = 2;            // Identificador único del cliente

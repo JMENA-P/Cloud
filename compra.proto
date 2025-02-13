@@ -12,7 +12,7 @@ message Compra {
   string motivo_garantia = 9;     // Razón por la cual se solicitó la garantía
   string estado_garantia = 10;    // Estado actual de la solicitud de garantía
   string comentario_cliente = 11; // Feedback del cliente sobre la compra o garantía
-  int32 calificacion = 12;        // Puntuación dada por el cliente al servicio recibido
+  float calificacion = 12;        // Puntuación dada por el cliente al servicio recibido
   string canal_venta = 13;        // Medio a través del cual se realizó la venta (ej: tienda física, online)
   string ubicacion_tienda = 14;   // Ubicación de la tienda donde se realizó la compra
 }
